@@ -1,6 +1,5 @@
-from flaskapp import db
 from datetime import datetime
-from models import User, Post
+from flaskapp import db
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
